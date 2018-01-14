@@ -17,7 +17,7 @@ botStart = time.time()
 #cl.loginResult()
 
 cl = HelloWorld.LINE()
-cl.login(token="Eov1SpnG44JIsZ4NVPg3.nBT543FxoLpZYt29i8ceSW.Iv95AOM9S26wrzPIJbMIu3eRL22kx/ZEpJS546zd/Gg=")
+cl.login(token="EoQlX9nX07PmBcJXgGde.rWbQH0AqM/67F83f0OdD7G.YWOZfAGBSEfr8k/1zg6W8mcm2EW/oMkE2UxCMsB6W0Q=")
 cl.loginResult()
 
 print "=============[Login Success]============="
@@ -559,7 +559,7 @@ def bot(op):
 #==============================================================================#
 #==============================================================================#
 #==============================================================================#
-        if op.type == 25:
+        if op.type == 26:
             msg = op.message
             if msg.contentType == 13:
                 return            
